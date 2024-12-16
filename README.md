@@ -31,6 +31,7 @@ To run the codes successfully, the downloaded datasets should be placed in `/dat
 
 
 We use `Pretrain/dataset_conf/zinc_2m_MD` (Execute 3D-level pretext task) or `Pretrain/dataset_info/zinc_2m_MD` (Not execute 3D-level pretext task) 
+
 (Preprocessed data from zinc_standard_agent dataset, will be opend)
 
 
