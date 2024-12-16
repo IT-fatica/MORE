@@ -20,14 +20,13 @@ The pre-tiraned models we use follow the training steps of the paper [*Strategie
 ## Dataset
 The pre-training and downstream datasets used in our experiments are referred to the paper *Strategies for Pre-training Graph Neural Networks*. You can download the biology and chemistry datasets from [their repository](https://github.com/snap-stanford/pretrain-gnns). 
 
-To run the codes successfully, the downloaded datasets should be placed in `/dataset_conf` and `/dataset_info` for pre-training
+- To run the codes successfully, the downloaded datasets should be placed in `/dataset_conf` and `/dataset_info` for pre-training
 
 (If you're using 3D-level pretext task, you'll need to use the `/dataset_conf`)
 
 (If you are not using 3D-level pretext task, you'll need to use the `/dataset_info`)
 
-
-To run the codes successfully, the downloaded datasets should be placed in `/dataset` for fine-tuning
+- To run the codes successfully, the downloaded datasets should be placed in `/dataset` for fine-tuning
 
 
 We use `Pretrain/dataset_conf/zinc_2m_MD` (Execute 3D-level pretext task) or `Pretrain/dataset_info/zinc_2m_MD` (Not execute 3D-level pretext task) 
