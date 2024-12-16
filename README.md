@@ -21,6 +21,12 @@ The pre-tiraned models we use follow the training steps of the paper [*Strategie
 The pre-training and downstream datasets used in our experiments are referred to the paper *Strategies for Pre-training Graph Neural Networks*. You can download the biology and chemistry datasets from [their repository](https://github.com/snap-stanford/pretrain-gnns). 
 
 To run the codes successfully, the downloaded datasets should be placed in `/dataset_conf` and `/dataset_info` for pre-training
+
+(If you're using 3D-level pretext task, you'll need to use the `/dataset_conf`)
+
+(If you are not using 3D-level pretext task, you'll need to use the `/dataset_info`)
+
+
 To run the codes successfully, the downloaded datasets should be placed in `/dataset` for fine-tuning
 
 
@@ -35,4 +41,6 @@ We provide pretrained MORE (Finetune/pretrrain/MORE.pth)
 
 ## Example
 For pre-training, `Pretrain/example.ipynb`
+
 For Fine-tuning, `Finetune/example.ipynb`
+
