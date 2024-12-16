@@ -1,4 +1,7 @@
-## MOREL Molecule Pretraining with Multi-Level Pretext Task
+# MORE: Molecule Pretraining with Multi-Level Pretext Task'
+<p align="center">
+<img src=overview.jpg width=900px>
+</p>
 
 ## Installation
 
