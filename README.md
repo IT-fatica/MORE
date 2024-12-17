@@ -16,10 +16,10 @@ torch-sparse 0.6.17
 rdkit 2022.9.5
 ```
 
-## Pre-train step
+## Pretrain step
 Please run `pretraining.py` for downstream adaptations. 
 
-The pre-tiraned models we use follow the training steps of the paper [*Strategies for Pre-training Graph Neural Networks*](https://github.com/snap-stanford/pretrain-gnns) and [*GraphMAE*](https://github.com/THUDM/GraphMAE/tree/main/chem)
+The pre-trained models we use follow the training steps of the paper [*Strategies for Pre-training Graph Neural Networks*](https://github.com/snap-stanford/pretrain-gnns) and [*GraphMAE*](https://github.com/THUDM/GraphMAE/tree/main/chem)
 
 
 ## Dataset
@@ -43,11 +43,11 @@ We use `Pretrain/dataset_conf/zinc_2m_MD` and `Pretrain/dataset_info/zinc_2m_MD`
 ## Fine-tune step
 Please run `finetune.py` for downstream adaptations. 
 
-We provide pretrained MORE (Finetune/pretrrain/MORE.pth)
+We provide pretrained MORE (Finetune/pretrain/MORE.pth)
 
 
 ## Example
-For pre-training, `Pretrain/example.ipynb`
+For pretraining, `Pretrain/example.ipynb`
 
 For Fine-tuning, `Finetune/example.ipynb`
 
