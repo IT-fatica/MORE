@@ -34,7 +34,7 @@ The pre-training and downstream datasets used in our experiments are referred to
 - To run the codes successfully, the downloaded datasets should be placed in `/dataset` for fine-tuning
 
 
-We use `Pretrain/dataset_conf/zinc_2m_MD` (Execute 3D-level pretext task) or `Pretrain/dataset_info/zinc_2m_MD` (Not execute 3D-level pretext task) 
+We use `Pretrain/dataset_conf/zinc_2m_MD` (Execute 3D-level pretext task) or `Pretrain/dataset_info/zinc_2m_MD`
 
 (Preprocessed data from zinc_standard_agent dataset, you can get the preprocessed data [here](https://drive.google.com/drive/folders/1SDz7uzOk_GA17LPO-K-Lc0tGmyQlJSbK?usp=sharing))
 
