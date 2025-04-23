@@ -1,5 +1,5 @@
 # MORE: Molecule Pretraining with Multi-Level Pretext Task 
-AAAI2025 paper: [MORE: Molecule Pretraining with Multi-Level Pretext Task](https://ojs.aaai.org/index.php/AAAI/article/view/34262)
+AAAI 2025 paper: [MORE: Molecule Pretraining with Multi-Level Pretext Task](https://ojs.aaai.org/index.php/AAAI/article/view/34262)
 <p align="center">
 <img src=overview.jpg width=900px>
 </p>
